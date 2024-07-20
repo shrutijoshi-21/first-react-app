@@ -6,7 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+/* .form-container{
+  padding: 12px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 460px;
+} */
+ .login-container{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  
+ }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
